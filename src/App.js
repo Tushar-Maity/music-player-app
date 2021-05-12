@@ -18,6 +18,7 @@ const App = () => {
        <Song currentSong={currentSong}/>
        <Player setIsPlaying={setIsPlaying} isPlaying={isPlaying} currentSong={currentSong}/>
        <Library songs={songs} setCurrentSong={setCurrentSong}/>
+       console.log("Testing is clear!!")
     </div>
   );
 }
